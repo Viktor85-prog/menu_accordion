@@ -1,0 +1,31 @@
+nav {
+    width: 400px;
+    background-color:rgb(203, 252, 231);
+}
+
+button.accordion {
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0,4s;
+    
+}
+
+button.accordion.active,
+button.accordion:hover{
+    background-color: rgb(204, 247, 241);
+}
+
+div.panel {
+    padding: 0 20px;
+    background-color: white;
+    display: none;
+}
+div.panel.show {
+display: block;
+}
